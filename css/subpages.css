@@ -1,0 +1,507 @@
+/*Subpage General Style*/
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    background-color: rgb(247, 247, 247);
+}
+
+.section-header {
+    margin-bottom: 40px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    font-size: 40px;
+}
+
+#main-nav a {
+    color: black;
+}
+
+.main-paragraph {
+    font-size: 29px;
+    margin: 0 0 4px 0;
+}
+
+.paragraph-features {
+    margin-top: 4%;
+}
+
+.paragraph-features p {
+    font-size: 20px;
+    display: inline-block;
+    margin: 0 33px 10px 0;
+    width: 43%;
+    border-bottom: 2px solid #0ed8d6;
+}
+
+.select-container {
+    height: 24px;
+    width: 43%;
+    display: inline-block;
+    margin: 0 33px 10px 0;
+    border-bottom: 2px solid #0ed8d6;
+    position: relative;
+    top: 18px;
+}
+
+.select-container select {
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    background-color: rgb(247, 247, 247);
+    border: none;
+    font-size: 19px;
+    width: 33%;
+    position: absolute;
+    /* bottom: 0%; */
+    text-align: center;
+    right: 31%;
+    bottom: 20%;
+}
+
+.select-container .red {
+    width: 49%;
+}
+
+
+.select-container-EAN select {
+    font-size: 17px;
+    width: 101%;
+    right: 0;
+}
+
+.logo-button {
+    margin: 0px 236px 0 181px;
+    height: 70px;
+}
+
+.navbar-brand {
+    position: absolute;
+}
+
+.btn-default {
+    margin-top: 10px;
+}
+
+#products-detailed {
+    padding-top: 15px;
+}
+
+.detail-row {
+    margin-bottom: 5%;
+}
+
+
+#products-detailed .detail-product-image-container {
+    height: 446px;
+    overflow: hidden;
+    border: 3px solid lightgray;
+    background: #fff;
+}
+
+
+
+#products-detailed .detail-product-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    position: relative;
+    transition: .3s;
+}
+
+
+#products-detailed .detail-product-image:hover {
+    transform: scale(1.2);
+}
+
+.detail-product-image-mask > a {
+    height: 100%;
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+#products-detailed .detail-single-product-item .detail-product-image .detail-product-image-mask {
+    background-color: rgba(42, 61, 79, 0.8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all .3s;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+#products-detailed .detail-single-product-item .detail-product-image .detail-product-image-mask:hover {
+    opacity: 0.5;
+}
+
+#products-detailed .detail-single-product-item .detail-product-image .detail-product-image-mask .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 3em;
+}
+
+/*Subpage General Style End*/
+
+/*Jumbole Role Style*/
+
+#detail-product-item-1-a {
+    background-image: url(../img/jumbo-role/Tira300.jpg);
+}
+
+#detail-product-item-1-b {
+    background-image: url(../img/jumbo-role/Tira500.jpg);
+}
+
+#detail-product-item-1-c {
+    background-image: url(../img/jumbo-role/maxi_rola.jpg);
+}
+
+#detail-product-item-1-d {
+    background-image: url(../img/jumbo-role/carma_Handy.jpg);
+}
+
+#detail-product-item-1-e {
+    background-image: url(../img/jumbo-role/Tira400.jpg);
+}
+
+#detail-product-item-1-f {
+    background-image: url(../img/jumbo-role/Tira1000.jpg);
+}
+
+#detail-product-item-1-g {
+    background-image: url(../img/jumbo-role/Bulky_Soft700.jpg);
+}
+
+#detail-product-item-1-h {
+    background-image: url(../img/jumbo-role/Bulkysoft_Twin.jpg);
+}
+
+#detail-product-item-1-i {
+    background-image: url(../img/jumbo-role/tuscany_bialy.jpg);
+}
+
+#detail-product-item-1-j {
+    background-image: url(../img/jumbo-role/tuscany_niebieski.jpg);
+}
+
+#detail-product-item-1-k {
+    background-image: url(../img/jumbo-role/wiper_190.jpg);
+}
+
+#detail-product-item-1-l {
+    background-image: url(../img/jumbo-role/tuscany_top_304.jpg);
+}
+
+#detail-product-item-1-m {
+    background-image: url(../img/jumbo-role/tuscany_mini.jpg);
+}
+
+#detail-product-item-1-n {
+    background-image: url(../img/jumbo-role/tuscany_20_60.jpg);
+}
+
+/*Jumbo Role Style End*/
+
+/*Bulky Soft Style*/
+
+#detail-product-item-2-a {
+    background-image: url(../img/bulkysoft/Infinita4rotoli.jpg);
+}
+
+#detail-product-item-2-b {
+    background-image: url(../img/bulkysoft/Bulky_soft_czerwona.jpg);
+}
+
+#detail-product-item-2-c {
+    background-image: url(../img/bulkysoft/Bulkysoft_bialagladka.jpg);
+}
+
+#detail-product-item-2-d {
+    background-image: url(../img/bulkysoft/Bulkysoft_bialaramka.jpg);
+}
+
+
+/*Bulky Soft Style End*/
+
+/*Ręczniki ZZ Style*/
+
+#detail-product-item-5-a {
+    background-image: url(../img/zz/zz.jpg);
+}
+
+#detail-product-item-5-b {
+    background-image: url(../img/zz/zz_bialy_celuloza.jpg);
+}
+
+#detail-product-item-5-c {
+    background-image: url(../img/zz/zz_bialy.jpg);
+}
+
+/*Ręczniki ZZ Style End*/
+
+
+/*Papiery toaletowe Style*/
+#detail-product-item-3-a {
+    background-image: url(../img/papiery-toaletowe/comfort4.jpg);
+}
+
+#detail-product-item-3-b {
+    background-image: url(../img/papiery-toaletowe/comfort_8.jpg);
+}
+
+#detail-product-item-3-c {
+    background-image: url(../img/papiery-toaletowe/HARMONY_TOPA_EXCLUSIVE_8.jpg);
+}
+
+#detail-product-item-3-d {
+    background-image: url(../img/papiery-toaletowe/HARMONY_TOPA_EXCLUSIVE_HERBAL_8.jpg);
+}
+
+#detail-product-item-3-e {
+    background-image: url(../img/papiery-toaletowe/HARMASAN_69_m.jpg);
+}
+
+#detail-product-item-3-f {
+    background-image: url(../img/papiery-toaletowe/HARMASAN_4.jpg);
+}
+
+#detail-product-item-3-g {
+    background-image: url(../img/papiery-toaletowe/HARMASAN_10.jpg);
+}
+
+#detail-product-item-3-h {
+    background-image: url(../img/papiery-toaletowe/pap_Satinelle4.jpg);
+}
+
+#detail-product-item-3-i {
+    background-image: url(../img/papiery-toaletowe/pap_Satinelle8.jpg);
+}
+
+#detail-product-item-3-j {
+    background-image: url(../img/papiery-toaletowe/HARMONY_TOPA_SOFT_4.jpg);
+}
+
+#detail-product-item-3-k {
+    background-image: url(../img/papiery-toaletowe/HARMONY_TOPA_SOFT_FLORA_8.jpg);
+}
+
+#detail-product-item-3-l {
+    background-image: url(../img/papiery-toaletowe/HARMONY_TOPA_SOFT_8.jpg);
+}
+
+#detail-product-item-3-m {
+    background-image: url(../img/papiery-toaletowe/comfort16.jpg);
+}
+
+
+/*Papiery toaletowe Style End*/
+
+/*Ręczniki papierowe Style*/
+#detail-product-item-4-a {
+    background-image: url(../img/reczniki-papierowe/recz_Satinelle.jpg);
+}
+
+#detail-product-item-4-b {
+    background-image: url(../img/reczniki-papierowe/recz_ForYou.jpg);
+}
+
+#detail-product-item-4-c {
+    background-image: url(../img/reczniki-papierowe/harmony_natural.jpg);
+}
+
+#detail-product-item-4-d {
+    background-image: url(../img/reczniki-papierowe/HARMONY_UTIERKY_ABSORBENT_PRAKTIK.jpg);
+}
+
+#detail-product-item-4-e {
+    background-image: url(../img/reczniki-papierowe/HARMONY_UTIERKY_ABSORBENT_PRAKTIK_XL.jpg);
+}
+
+#detail-product-item-4-f {
+    background-image: url(../img/reczniki-papierowe/HARMONY_UTIERKY_ULTRA_ABSORBENT.jpg);
+}
+
+#detail-product-item-4-g {
+    background-image: url(../img/reczniki-papierowe/HARMONY_UTIERKY_ABSORBENT_PRAKTIK_XXL.jpg);
+}
+
+/*Ręczniki papierowe Style End*/
+/*Chusteczki higieniczne Style*/
+#detail-product-item-6-a {
+    background-image: url(../img/chusteczki-higieniczne/ch_Satinelle.jpg);
+}
+
+#detail-product-item-6-b {
+    background-image: url(../img/chusteczki-higieniczne/ch_ForYou.jpg);
+}
+
+#detail-product-item-6-c {
+    background-image: url(../img/chusteczki-higieniczne/PRIMA.jpg);
+}
+
+#detail-product-item-6-d {
+    background-image: url(../img/chusteczki-higieniczne/LADIES.jpg);
+}
+
+#detail-product-item-6-e {
+    background-image: url(../img/chusteczki-higieniczne/GENTLEMAN.jpg);
+}
+
+#detail-product-item-6-f {
+    background-image: url(../img/chusteczki-higieniczne/PREMIUM.jpg);
+}
+
+#detail-product-item-6-g {
+    background-image: url(../img/chusteczki-higieniczne/uniwersalne.jpg);
+}
+
+
+/*Chusteczki higieniczne Style End*/
+/*Chusteczki nawilżane Style*/
+#detail-product-item-7-a {
+    background-image: url(../img/chusteczki-nawilzane/nawil_Nemdil15.jpg);
+}
+
+#detail-product-item-7-b {
+    background-image: url(../img/chusteczki-nawilzane/Liola_a_15_uniwersalne.jpg);
+}
+
+#detail-product-item-7-c {
+    background-image: url(../img/chusteczki-nawilzane/freshmaker_intimate.jpg);
+}
+
+#detail-product-item-7-d {
+    background-image: url(../img/chusteczki-nawilzane/freshamker_makeup.jpg);
+}
+
+#detail-product-item-7-e {
+    background-image: url(../img/chusteczki-nawilzane/nemdil_kids_a_40.jpg);
+}
+
+#detail-product-item-7-f {
+    background-image: url(../img/chusteczki-nawilzane/freshmaker_kids_a_60.jpg);
+}
+
+#detail-product-item-7-g {
+    background-image: url(../img/chusteczki-nawilzane/nawil_Freshmaker60klips.jpg);
+}
+
+#detail-product-item-7-h {
+    background-image: url(../img/chusteczki-nawilzane/nemdil_kids_a_72.jpg);
+}
+
+#detail-product-item-7-i {
+    background-image: url(../img/chusteczki-nawilzane/liola_72_a_.jpg);
+}
+
+#detail-product-item-7-j {
+    background-image: url(../img/chusteczki-nawilzane/72_NEMDIL_3D.jpg);
+}
+
+#detail-product-item-7-k {
+    background-image: url(../img/chusteczki-nawilzane/nawil_Freshmaker72.jpg);
+}
+
+#detail-product-item-7-l {
+    background-image: url(../img/chusteczki-nawilzane/nawil_Nemdil_DeLuxe.jpg);
+}
+
+#detail-product-item-7-m {
+    background-image: url(../img/chusteczki-nawilzane/freshmaker_a_100_rose.jpg);
+}
+
+#detail-product-item-7-n {
+    background-image: url(../img/chusteczki-nawilzane/FrashmakerCaomile100pcskopya.jpg);
+}
+
+#detail-product-item-7-o {
+    background-image: url(../img/chusteczki-nawilzane/Nemdil120pcskopya.jpg);
+}
+
+#detail-product-item-7-u {
+    background-image: url(../img/chusteczki-nawilzane/nawil_Freshmaker120.jpg);
+}
+
+#detail-product-item-7-p {
+    background-image: url(../img/chusteczki-nawilzane/Liola_a_120_lawenda.jpg);
+}
+
+/*Chusteczki nawilżane Style End*/
+
+/*Serwetki gastronomiczne Style*/
+#detail-product-item-8-a {
+    background-image: url(../img/serwetki-gastronomiczne/gastro_400.jpg);
+}
+
+#detail-product-item-8-b {
+    background-image: url(../img/serwetki-gastronomiczne/gastro_250.jpg);
+}
+
+#detail-product-item-8-c {
+    background-image: url(../img/serwetki-gastronomiczne/gastro_a_500_1_8.jpg);
+}
+
+#detail-product-item-8-d {
+    background-image: url(../img/serwetki-gastronomiczne/Edelweiss_biale_15x15.jpg);
+}
+
+#detail-product-item-8-e {
+    background-image: url(../img/serwetki-gastronomiczne/Edelweiss_gladkie_15x15.jpg);
+}
+
+#detail-product-item-8-f {
+    background-image: url(../img/serwetki-gastronomiczne/Edelweiss_17x17.jpg);
+}
+/*Serwetki gastronomiczne Style End*/
+
+/*Serwetki stołowe Style*/
+#detail-product-item-9-a{
+    background-image: url(../img/serwetki-stolowe/serwetki_stolowe.jpg);
+}
+/*Serwetki stołowe Style End*/
+
+/*Ściereczki domowe Style*/
+#detail-product-item-10-a{
+    background-image: url(../img/sciereczki-domowe/sciereczki.jpg);
+}
+/*Ściereczki domowe Style End*/
+
+/*Balony Style*/
+#detail-product-item-11-a{
+    background-image: url(../img/balony/balony.jpg);
+}
+
+#detail-product-item-11-b{
+    background-image: url(../img/balony/balony_pastelowe.jpg);
+}
+
+#detail-product-item-11-c{
+    background-image: url(../img/balony/balony_metalizowane.jpg);
+}
+/*Balony Style End*/
+
+
+/*Show hide*/
+#show-hide {
+    display: none;
+}
+
+#show-hide .product-description p {
+    font-size: 20px;
+    text-align: justify;
+}
